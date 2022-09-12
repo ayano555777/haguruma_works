@@ -1,0 +1,423 @@
+body {
+    background-color: black;
+}
+
+
+.smokeimg {
+    text-align: center;
+    position: relative;
+}
+
+.topright {
+    
+    color: white;
+    font-size: 50px;
+  }
+
+.smokeimg p {
+    position: absolute;
+    top: 30%;
+    right: 80px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-weight: 700;
+    text-shadow: 
+      0 0 1px #8080ed, 0 0 3px #8080ed, 
+      0 0 6px #8080ed, 0 0 10px #8080ed, 
+      0 0 30px #8080ed, 0 0 50px #8080ed;
+}
+
+.smokeimg span {
+    font-size: 90px;
+    color: white;
+    /* position: absolute;
+    top: 30%;
+    right: 25px; */
+}
+
+.linegif img {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    }
+
+.linegif {
+    text-align: center;
+}
+
+
+
+
+.followus p {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+/* SNSアイコン */
+
+
+.socialEffect__box {
+    text-align: center;
+}
+
+
+
+.socialEffect__link {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  } 
+  
+.socialEffect__box li {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .icon-line img {
+    width: 45%;
+    height: auto;
+  }
+
+  .icon-instagram img {
+    width: 80%;
+    height: auto;
+  }
+
+
+  .icon-twitter img {
+    width:45%;
+    height: auto;
+  }
+
+
+
+
+  
+
+
+
+/* 前売りチケット */
+
+
+
+
+.theworld p {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 45px;
+    color: red;
+}
+
+.wrapper2 {
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+    width: 80%;
+    }
+    
+.main2, .side2 {
+    display: flex; 
+    }
+
+.main2 p {
+    font-size: 18px;
+    color: white;
+    }
+
+.side2 p {
+    font-size: 18px;
+    color: white;
+    }
+
+
+
+
+.bg-image {
+    position: relative;
+    text-align: center;
+  }
+.bg-image img {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  /* 画像を暗くするオーバーレイ */
+.bg-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+.text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-family: 'Shippori Mincho', serif;
+  }
+
+  .box4{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 55%;
+    text-align: center;
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: rgba(254,254,254,0.65);
+    border-top: solid 5px rgba(255,69,0,0.7);
+    border-bottom: solid 5px rgba(255,69,0,0.7);
+}
+.box4 p {
+    font-size: 18px;
+
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+
+.box4 h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+  }
+  .box4 h1::before {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    content: "";
+    background-color: #1874E1;
+  }
+  .box4 h1 span {
+    font-size: 20px;
+    display: block;
+    margin-top: 5px;
+  }
+
+  /* メニュー */
+
+
+  .blackwhite {
+    position: relative;
+    text-align: center;
+  }
+
+
+
+.wrapper3 {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+    width: 80%;
+    }
+    
+.main3, .side3 {
+    display: flex; 
+    }
+
+.main3 p {
+    font-size: 18px;
+    color: white;
+    }
+
+.side3 p {
+    font-size: 18px;
+    color: black;
+    }
+
+
+.hhcp {
+    font-family: 'Special Elite', cursive;
+    font-size: 52px;
+    text-align: center;
+    margin: 1em auto; 
+    padding: 0.3em 0.3em;
+    width: 30%; /*幅の調節*/
+    color: red; /* 文字色 */
+    font-weight: 500;
+    background-color: rgba(255,255,255,0.78); /* 背景色 */
+    border: 6px solid rgba(255,0,0,0.89); /*線の太さ・色*/
+    border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+
+    }
+
+
+.wrapper4 {
+
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+    width: 80%;
+    }
+    
+.main4, .side4 {
+    display: flex; 
+    }
+
+.main4 p {
+    font-size: 18px;
+    color: white;
+    }
+
+.side4 p {
+    font-size: 18px;
+    color: white;
+    }
+
+.main4 h2 {
+    font-size: 25px;
+    color: white;
+    }
+
+.side4 h2 {
+    font-size: 25px;
+    color: white;
+    }
+
+.wrapper5 {
+
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+    width: 80%;
+    }
+    
+.main5, .side5 {
+    display: flex; 
+    }
+
+.main5 p {
+    font-size: 18px;
+    color: white;
+    }
+
+.side5 p {
+    font-size: 18px;
+    color: white;
+    }
+
+.main5 h2 {
+    font-size: 25px;
+    color: white;
+    }
+
+.side5 h2 {
+    font-size: 25px;
+    color: white;
+    }
+
+
+/* others */
+.moon {
+    position: relative;
+    }
+
+.moon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    }
+
+.other {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    }
+
+.other p {
+    font-size: 18px;
+    color: white;
+    }
+
+
+/* まとめ文 */
+.bg-image2 {
+    position: relative;
+    text-align: center;
+  }
+.bg-image2 img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  /* 画像を暗くするオーバーレイ */
+.bg-image2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+
+.togenkyolink img {
+    text-align: center;
+    }
+
+.togenkyolink{
+    text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
