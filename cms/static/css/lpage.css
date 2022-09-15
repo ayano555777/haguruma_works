@@ -2,6 +2,220 @@ body {
     background-color: black;
 }
 
+/* ヘッター */
+.ec-select {
+    overflow: hidden;
+    width: 30%;
+    margin: 2em auto;
+    text-align: center;
+  }
+  .ec-select select {
+    width: 100%;
+    padding-right: 1em;
+    cursor: pointer;
+    text-indent: 0.01px;
+    text-overflow: ellipsis;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .category_id option {
+    color: white;
+    left: 200px;
+  }
+
+  .ec-select.ec-select_search {
+    position: relative;
+    border-radius: 2px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: gray;
+    left: 100px;
+    top: -30px;
+  }
+  .ec-select.ec-select_search::before {
+    position: absolute;
+    top: 0.8em;
+    right: 0.8em;
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid red;
+    pointer-events: none;
+  }
+  .ec-select.ec-select_search select {
+    padding: 8px 38px 8px 8px;
+    color: black;
+  }
+/* 全ての商品ココまで */
+
+.ec-input {
+    display: flex;
+    width: 60%;
+    margin-top: -100px;
+}
+
+.ec-input img {
+    width: 10%;
+    height: auto;
+}
+
+button {
+    width: 30%;
+}
+
+.ec-headerSearch {
+    display: flex;
+}
+
+.ec-input .input button{
+    display: flex;
+}
+
+
+
+
+
+.ec-headerNav__item span {
+    color: white;
+}
+
+.ec-headerNav__item i {
+    color: white;
+}
+
+.ec-cartNaviNull p {
+    color: white;
+}
+
+
+
+
+
+/* ココからヘッター */
+
+.ec-headerNaviRole {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #525263;
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    max-width: 1130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+
+.ec-headerNav .ec-headerNav__item {
+    margin-left: 0;     
+    display: inline-block;
+    font-size: 20px;
+}　
+
+.ec-headerSearch .ec-headerSearch__category .ec-select select {
+    background-color: #696969 !important;
+}
+
+
+.ec-headerSearch .ec-headerSearch__category .ec-select select {
+    width: 100%;
+    cursor: pointer;
+    padding: 8px 24px 8px 8px;
+    text-indent: 0.01px;
+    text-overflow: ellipsis;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+}
+
+
+
+
+
+.ec-headerSearch .ec-headerSearch__keyword input[type="search"] {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    border: solid 2px #cccccc; /*--ボーダー線--*/
+}
+
+.ec-cartNavi {
+    width: 50%;
+}
+
+
+
+
+
+
+
+/* 右 */
+
+.ec-headerNav {
+    text-align: right;
+}
+
+.ec-headerNaviRole .ec-headerNaviRole__nav a {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+/* 
+.ec-headerNaviRole .ec-headerNaviRole__right {
+    width: calc(100% * 2 / 3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+
+
+
+/* @media only screen and (min-width: 768px) */
+.ec-cartNavi {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 99999px;
+    box-sizing: border-box;
+    padding: 12px 17px 10px;
+    width: auto;
+    min-width: 140px;
+    height: 44px;
+    white-space: nowrap;
+    cursor: pointer;
+    background:#F8F8F8;
+}
+
+
+
+
+
+
+
+/* ココまでヘッダー */
 
 .smokeimg {
     text-align: center;
@@ -409,6 +623,33 @@ body {
 .togenkyolink{
     text-align: center;
     }
+
+
+.ec-footerNavi {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.ec-footerNavi a:hover {
+    text-decoration: underline;
+   }
+
+.ec-footerNavi a {
+    color: white;
+}
+
+.ec-footerNavi li {
+    padding: 30px;
+}
+
+.ec-footerTitle {
+    text-align: center;
+    color: white;
+}
+
+
 
 
 

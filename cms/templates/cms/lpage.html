@@ -47,7 +47,92 @@
 
 <html>
 <body>
-    <br><br><br><br><br><br>
+        <div class="ec-layoutRole__header">
+            <!-- ▼ヘッダー(商品検索・ログインナビ・カート) -->
+        <div class="ec-headerNaviRole">
+            <div class="ec-headerNaviRole__left">
+                <div class="ec-headerNaviRole__search">
+                    <div class="ec-headerSearch">
+                        <form method="get" class="searchform" action="/products/list">
+                            <div class="ec-select ec-select_search">
+                                <!-- ::before -->
+                                <select name="category_id" class="category_id">
+                                    <option value="">全ての商品</option>
+                                    <option value="12">イベント</option>
+                                    <option value="11">HHCP</option>
+                                    <option value="1">THC-O</option>
+                                    <option value="2">HHC-O</option>
+                                </select>
+                            </div>
+                            <div class="ec-input">
+                                <input type="search" name="name" maxlength="50" class="search-name" placeholder="キーワードを入力">
+                                <button class="ec-headerSearch__keywordBtn" type="submit">
+                                    <div class="ec-icon">検索
+                                        <img src="{% static 'image/megane2.svg' %} " width = "8%" height= "8%" alt="">
+                                    </div>
+                                </button>
+                            </div>
+                        </form>
+                        <!-- ::after -->
+                    </div>
+                </div>
+
+            </div>
+        <div class="ec-headerNaviRole__right">
+            <div class="ec-headerNaviRole__nav">               
+                <div class="ec-headerNav">
+                    <div class="ec-headerNav__item">
+                        <a href="https://dice-cnd.com/entry">
+                            <i class="ec-headerNav__itemIcon fas fa-user fa-fw">
+                                <!-- ::before -->
+                            </i>
+                            <span class="ec-headerNav__itemLink">新規会員登録</span>
+                        </a>
+                    </div>
+                    <div class="ec-headerNav__item">
+                        <a href="https://dice-cnd.com/mypage/favorite">
+                            <i class="ec-headerNav__itemIcon fas fa-heart fa-fw">
+                                <!-- ::before -->
+                            </i>
+                            <span class="ec-headerNav__itemLink">お気に入り</span>
+                        </a>
+                    </div>
+                    <div class="ec-headerNav__item">
+                        <a href="https://dice-cnd.com/mypage/login">
+                            <i class="ec-headerNav__itemIcon fas fa-lock fa-fw">
+                                <!-- 7 -->
+                            </i>
+                            <span class="ec-headerNav__itemLink">ログイン</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="ec-headerRole__cart">
+                <div class="ec-cartNaviWrap">
+                    <div class="ec-cartNavi">
+                        <i class="ec-cartNavi__icon fas fa-shopping-cart">
+                            <!-- ::before -->
+                            <span class="ec-cartNavi__badge">0</span>
+                        </i>
+                        <div class="ec-cartNavi__label">
+                            <div class="ec-cartNavi__price">￥0</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="ec-cartNaviNull">
+                        <div class="ec-cartNaviNull__message">
+                            <p>現在カート内に商品はございません。</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ::after -->
+            </div>
+        </div>
+        </div>
+        <!-- ▲ヘッダー(商品検索・ログインナビ・カート) -->
+
+        </div>
 
     <div class = "smokeimg">
         <img src="{% static 'image/smoke3.png' %} " width="70%" height=auto alt="">
@@ -61,7 +146,7 @@
 
     <div class = "followus">
         <br>
-        <p>・・・FOLLOWUS・・・</p>
+        <p>・・・FOLLOW US・・・</p>
     </div>
 
     <div>
@@ -391,7 +476,26 @@
                 <img src="{% static 'image/togenkyo1.png' %}" width="60%" height=auto>
             </a>
         </div>
+        
 
+        <ul class="ec-footerNavi">
+            <li class="ec-footerNavi__link">
+                <a href="https://dice-cnd.com/help/about">当サイトについて</a>
+            </li>
+            <li class="ec-footerNavi__link">
+                <a href="https://dice-cnd.com/help/privacy">プライバシーポリシー</a>
+            </li>
+            <li class="ec-footerNavi__link">
+                <a href="https://dice-cnd.com/help/tradelaw">特定商取引法に基づく表記</a>
+            </li>
+            <li class="ec-footerNavi__link">
+                <a href="https://dice-cnd.com/contact">お問い合わせ</a>
+            </li>
+        </ul>
+        <div class="ec-footerTitle">
+
+            <div class="ec-footerTitle__copyright">copyright (c) Dice CND all rights reserved.</div>
+        </div>
 
         
 
